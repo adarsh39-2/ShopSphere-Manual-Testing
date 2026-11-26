@@ -88,16 +88,8 @@ A failed test case should be recorded as a confirmed defect only when the expect
 Refer to `Bug-Reports.xlsx` for the individual bug IDs, titles, reproduction steps, expected and actual results, severity, priority, and evidence.
 
 
-## 7. Observations
 
-- Mandatory fields and password validation were checked during registration and login.
-- Product search behavior was checked using different search inputs.
-- Cart operations, quantity changes, and total calculations were tested.
-- Checkout and payment-related scenarios were tested.
-- Coupon-related test cases were blocked and should not be counted as passed or failed.
-- Failed test cases and confirmed defects should be tracked separately. Not every failed test case automatically represents a valid defect.
-
-## 8. Conclusion
+## 7. Conclusion
 
 Manual functional testing was performed on the Practice Software Testing application across the five selected modules.
 
