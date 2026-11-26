@@ -131,25 +131,6 @@ Each test case is assigned one of the following statuses:
 
 ---
 
-## Bug Reporting
-
-Defects are documented only when they are genuinely identified and reproducible.
-
-Each bug report contains:
-
-- Bug ID
-- Bug Title
-- Module
-- Steps to Reproduce
-- Expected Result
-- Actual Result
-- Severity
-- Priority
-- Screenshot or Supporting Evidence
-
-No defects are assumed or invented to meet a target number.
-
----
 
 ## Test Execution Summary
 
@@ -170,17 +151,6 @@ Refer to **Test-Execution-Report.md** for detailed execution results.
 
 ---
 
-## Testing Environment
-
-| Component | Details |
-|---|---|
-| Application | Practice Software Testing |
-| Operating System | Ubuntu Linux |
-| Browser | Mozilla Firefox |
-| Testing Type | Manual Functional Testing |
-| Testing Tool | Web Browser |
-
----
 
 ## Conclusion
 
