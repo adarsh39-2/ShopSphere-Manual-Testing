@@ -28,17 +28,8 @@ The testing focuses on the following modules:
 4. Coupon Application
 5. Checkout and Payment
 
-## 3. Test Environment
 
-| Component | Details |
-|---|---|
-| Operating System | Ubuntu Linux |
-| Browser | Mozilla Firefox |
-| Testing Type | Manual Testing |
-| Application | Practice Software Testing |
-| Network | Internet Connection |
-
-## 4. Modules Tested
+## 3. Modules Tested
 
 | Module | Testing Scope | Execution Status |
 |---|---|---|
@@ -48,7 +39,7 @@ The testing focuses on the following modules:
 | Coupon Application | Valid/invalid coupons and discount calculation | Blocked |
 | Checkout and Payment | Address validation, payment, failure handling, duplicate order prevention | Executed |
 
-## 5. Test Execution Summary
+## 4. Test Execution Summary
 
 The project contains 42 test cases. Based on the updated counts supplied, 31 passed, 7 failed, and 4 were blocked.
 
@@ -69,7 +60,7 @@ Pass Percentage = (31 / 38) × 100 = **81.58%**
 
 Blocked test cases are excluded from the pass-percentage calculation because they were not executed.
 
-## 6. Module-wise Execution Results
+## 5. Module-wise Execution Results
 
 | Module | Total Test Cases | Passed | Failed | Blocked | Not Run |
 |---|---:|---:|---:|---:|---:|
@@ -81,9 +72,8 @@ Blocked test cases are excluded from the pass-percentage calculation because the
 | Additional test case (module/ID to confirm) | 1 | 0 | 1 | 0 | 0 |
 | **Total** | **42** | **31** | **7** | **4** | **0** |
 
-**Note:** The additional test case row accounts for the increase from 41 to 42 total cases and from 6 to 7 failed cases. Update its module and test case ID to match the actual Test-Cases.xlsx entry.
 
-## 7. Defects Identified
+## 6. Defects Identified
 
 A total of **7 failed test cases / reported issues** are recorded in the updated execution figures.
 
@@ -97,15 +87,8 @@ A failed test case should be recorded as a confirmed defect only when the expect
 
 Refer to `Bug-Reports.xlsx` for the individual bug IDs, titles, reproduction steps, expected and actual results, severity, priority, and evidence.
 
-## 8. Blocked Test Cases
 
-| Test Case ID | Module | Reason for Blocking |
-|---|---|---|
-| Refer to Test-Cases.xlsx | Coupon Application | Coupon functionality was unavailable or could not be tested in the application. |
-
-Update this section with the exact four blocked test case IDs and the observed reason for each one.
-
-## 9. Observations
+## 7. Observations
 
 - Mandatory fields and password validation were checked during registration and login.
 - Product search behavior was checked using different search inputs.
@@ -114,7 +97,7 @@ Update this section with the exact four blocked test case IDs and the observed r
 - Coupon-related test cases were blocked and should not be counted as passed or failed.
 - Failed test cases and confirmed defects should be tracked separately. Not every failed test case automatically represents a valid defect.
 
-## 10. Conclusion
+## 8. Conclusion
 
 Manual functional testing was performed on the Practice Software Testing application across the five selected modules.
 
